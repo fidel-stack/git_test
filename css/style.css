@@ -78,3 +78,59 @@ margin:
 border:
 padding:
 */
+
+body{
+
+    margin-bottom: 20px;
+    
+    }
+        
+     h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+margin-bottom: 0px;
+
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: 0px;
+        }
+
+a{
+    color: yellow;
+}
+
+a:hover {
+    color: blueviolet;
+}
+a:visited {
+    color: pink;
+}
+a:active {
+    color: blue;
+}
+a:focus {
+    color: red;
+}
+
+p, h1 {
+    color: green;
+}
+
+
+
+.body-text{
+    background-color: black;
+    padding: 50px;
+}
+.body-text p {
+color: white;
+}
+.body-text a {
+    color: purple;
+}
+.body-text a:hover {
+    color: yellow;
+}
+.important-link{
+    color: blue !important;
+}
