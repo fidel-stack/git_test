@@ -1,0 +1,80 @@
+body {
+
+    background-color:#9379a4;
+    color: white;
+    font-size: 21px;
+}
+
+
+p{
+color: rgb(179, 181, 179);
+
+}
+
+h1{
+    font-size: 20px;
+    color: pink;}
+
+span{
+    color: rgb(6, 165, 25);
+    font-size: 25;
+    font-weight: bold;
+}
+
+.top-section {
+background: red;
+font-size: 25px;
+}
+.bottom-section {
+background: black;
+
+}
+.intro{
+font-size: 20px;
+}
+.middle{
+    font-size: 15px;
+    color: rgb(103, 33, 169);
+}
+.highlight{
+    color: aqua;
+    font-size: 25px;
+}
+.middle-section{
+    background: rgb(158, 169, 149);
+    font-size: 30px;
+    color: rgb(139, 52, 52);
+}
+
+
+
+body{
+    background: rgb(133, 108, 108); 
+    background-color: rgb(66, 163, 248);
+}
+
+
+
+
+h1{
+font-size: 70PX;
+color: blueviolet;
+}
+/*the CSS box model*/
+
+.Box{
+background-image: url(https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg) ;
+width: 300px;
+margin: 50px;
+
+padding: 20px 10px;
+background-size: cover;
+/* top right bottom left*/
+/*clockwise*/
+}
+/*the CSS box model*/
+/*
+margin:
+border:
+padding:
+*/
