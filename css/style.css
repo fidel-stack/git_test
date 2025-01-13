@@ -134,3 +134,26 @@ color: white;
 .important-link{
     color: blue !important;
 }
+
+h1{
+    font-size: 50px;
+}
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+.red-box{ 
+    height: 300px;
+    width: 300px;
+    background: yellowgreen;
+    float: left;
+    
+}
+.blue-box{
+    height: 300px;
+    width: 300px;
+    background: blue;
+    float:right 
+    
+}
