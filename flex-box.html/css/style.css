@@ -1,0 +1,25 @@
+body{
+  background-color: blanchedalmond;
+}
+.top{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: aqua;
+  
+}
+.middle{
+  background-color: blueviolet;
+} 
+.bottom{
+  background-color: chartreuse;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.fidel{
+border-style: outset;
+border-color: brown;
+display: flex;
+gap: 1rem;
+flex-wrap: nowrap;
+flex-basis: 300px;
+align-items: center;
+}
