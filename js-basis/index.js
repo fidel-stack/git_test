@@ -11,3 +11,5 @@
 console.log(true + '3')
 console.log('4' - '3')
 console.log(5 + undefined)
+console.log(23+97)
+console.log(4+6+9)
