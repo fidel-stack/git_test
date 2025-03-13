@@ -1,0 +1,167 @@
+body{
+    background: lightslategray;
+}
+
+.head{
+   color: #ffc728;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 5px solid black;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    border-top: 10px solid yellow;
+    padding: 20px;
+    background: rgb(69, 69, 78);
+}
+.todo{
+    color: rgb(76, 61, 90);
+    align-items: center;
+    padding: 50px;
+    margin-inline: 200px;
+    background: rgb(21, 109, 109);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(59, 52, 52);
+    
+}
+.mother{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin-inline: 30px;
+}
+.child1{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  cursor: pointer;
+  background: #333;
+  border-radius: 25px;
+}
+.child2{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+    background: #333;
+    border-radius: 25px;
+}
+.child3{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+    background: #333;
+    border-radius: 25px;
+}
+.child4{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+    background: #333;
+    border-radius: 25px;
+}
+.child1:hover{
+transform: rotateY(180deg);
+}
+.child2:hover{
+transform: rotateY(180deg);
+}
+.child3:hover{
+transform: rotateY(180deg);
+}
+.child4:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: linear-gradient(to bottom right, rgb(150, 82, 82), rgb(90, 90, 10));
+  color: #333;
+  border-radius: 25px;
+}
+.theback{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: linear-gradient(to bottom right, rgb(43, 43, 100), rgb(134, 31, 31));
+  color: #333;
+  transform: rotateY(180deg);
+  transition: transform 1s;
+  border-radius: 25px;
+}
+.child2{
+    margin-inline: 180px;
+}
+.child3{
+    margin-inline: 360px;
+}
+.child4{
+    margin-inline: 540px;
+}
+.emoji{
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    margin: 0%;
+}
+.text{
+    color: aqua;
+    padding: 0%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.text2{
+    text-align: center;
+    animation: bounce ease 2s infinite;
+}
+  
+@keyframes bounce {
+    /* The bounce animation code */
+    0% {
+      transform: scale(1, 1) translateY(0); /* Starting position and actual size */
+    }
+    10% {
+      transform: scale(1.1, 0.9) translateY(0); /* Grow width and shrink height for pre bounce squash effect */
+    }
+    30% {
+      transform: scale(1, 1) translateY(-6rem); /* Return to actual size and move emoji up 100px from current position */
+    }
+    50% {
+      transform: scale(1, 1) translateY(0); /* Move emoji back to starting position */
+    }
+  }
+footer{
+    color: #ffc728;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 5px solid black;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    border-top: 10px solid yellow;
+    padding: 0px;
+    background: rgb(69, 69, 78);
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    
+}
+.middle{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: bisque;
+    font-size: 30px;
+} 
